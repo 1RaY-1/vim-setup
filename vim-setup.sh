@@ -17,3 +17,4 @@ git -C ~/.vim/pack/vendor/start/ clone https://github.com/vim-airline/vim-airlin
 
 mv .vimrc ~
 
+cd .. && rm -rf vim-setup/
