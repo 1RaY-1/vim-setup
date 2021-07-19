@@ -1,7 +1,6 @@
 #!/bin/sh
 
 # My vim setup
-# Before running this, make sure you are connected to internet
 
 mkdir -p ~/.vim/pack/vendor/start/
 mkdir -p ~/.vim/colors
