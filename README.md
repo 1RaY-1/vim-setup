@@ -1,9 +1,9 @@
 <br>
-<img width=10% src="imgs/vim-logo.png"/>
+<img width=12% src="imgs/vim-logo.png"/>
 </p>
 
 # About
-My simple vim setup. To install it, you have to run [vim-setup.sh](https://github.com/1RaY-1/vim-setup/blob/main/vim-setup.sh)
+My simple vim setup.
 
 # Setup
 
@@ -21,9 +21,9 @@ If you run [vim-setup.sh](https://github.com/1RaY-1/vim-setup/blob/main/vim-setu
 <img src="imgs/2.png"/>
 </p>
 
-# How to install this setup
+# Installation
 
-Before installing this setup, make sure that you have **vim** and **git**.
+Before installing this setup, make sure that you have internet connection and that you have installed **git**.
 
 Then just type in your terminal this:
 
