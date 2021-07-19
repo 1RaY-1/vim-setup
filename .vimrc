@@ -12,9 +12,6 @@ hi LineNr ctermbg=16 guibg=#000000
 set cursorline
 hi cursorline gui=underline cterm=underline ctermbg=NONE
 
-" start in INSERT mode
-start
-
 " more
 filetype on
 
@@ -23,6 +20,11 @@ set nowrap
 set number
 set tabstop=4
 set expandtab
+set hidden
+
+" for buftabline plugin
+nnoremap <C-N> :bnext<CR>
+nnoremap <C-P> :bprev<CR>
 
 inoremap ( ()<left>
 inoremap [ []<left>
