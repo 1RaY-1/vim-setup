@@ -14,19 +14,20 @@ If you run [vim-setup.sh](https://github.com/1RaY-1/vim-setup/blob/main/vim-setu
 * Install some other plugins: [nerdtree](https://github.com/preservim/nerdtree), [vim-buftabline](https://github.com/ap/vim-buftabline), [AutoComplPop](https://github.com/vim-scripts/AutoComplPop), [vim-airline](https://github.com/vim-airline/vim-airline).
 * Move simple [vim config file](https://github.com/1RaY-1/vim-setup/blob/main/.vimrc) (.vimrc file) to home directory (to use it as a vim config). 
 
-
-# How to install this setup
-
-To install this setup, type:
-
-```
-git clone https://github.com/1RaY-1/vim-setup
-sh vim-setup/vim-setup.sh
-```
-
 # Screenshots
 <br>
 <p align="center">
 <img src="imgs/1.png"/>
 <img src="imgs/2.png"/>
 </p>
+
+# How to install this setup
+
+Before installing this setup, make sure that you have **vim** and **git**.
+
+Then just type in your terminal this:
+
+```
+git clone https://github.com/1RaY-1/vim-setup
+sh vim-setup/vim-setup.sh
+```
