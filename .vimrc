@@ -27,8 +27,8 @@ nnoremap <C-N> :bnext<CR>
 nnoremap <C-P> :bprev<CR>
 
 " for nerdtree plugin
-" Start NERDTree and put the cursor back in the other window.
-autocmd VimEnter * NERDTree | wincmd p
+" uncomment to start NERDTree automatically and put the cursor back in the other window.
+" autocmd VimEnter * NERDTree | wincmd p
 
 " some simple autocompletion
 inoremap ( ()<left>
