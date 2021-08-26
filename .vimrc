@@ -13,14 +13,6 @@ hi LineNr ctermbg=16 guibg=#000000
 set cursorline
 hi cursorline gui=underline cterm=underline ctermbg=NONE
 
-" more
-filetype on
-set ai
-set nowrap
-set number
-set tabstop=4
-set expandtab
-
 " for buftabline plugin
 set hidden
 nnoremap <C-N> :bnext<CR>
@@ -35,3 +27,11 @@ inoremap ( ()<left>
 inoremap [ []<left>
 inoremap { {}<left>
 inoremap ' ''<left>
+
+" more
+filetype on
+set ai
+set nowrap
+set number
+set tabstop=4
+set expandtab
