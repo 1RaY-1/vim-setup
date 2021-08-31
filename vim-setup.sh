@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# Shell script to install my vim setup
+# Before executing it, make sure you have 'git' package installed!
+
 # create needed directories
 mkdir -p ~/.vim/pack/vendor/start/
 mkdir -p ~/.vim/colors
