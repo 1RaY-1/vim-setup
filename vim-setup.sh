@@ -20,5 +20,6 @@ rm -rf ~/.vimrc
 mv .vimrc ~
 
 # finish
-cd .. && rm -rf vim-setup/
+cd .. 
+rm -rf vim-setup/
 echo "Done!"
