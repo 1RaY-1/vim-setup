@@ -10,7 +10,7 @@ mkdir -p ~/.vim/colors
 # install color scheme
 git clone https://github.com/sickill/vim-monokai
 mv vim-monokai/colors/monokai.vim ~/.vim/colors/
-rm -rf vim-monokai/
+rm -rf -v vim-monokai/
 
 # install some plugins
 git -C ~/.vim/pack/vendor/start/ clone https://github.com/preservim/nerdtree
@@ -19,10 +19,10 @@ git -C ~/.vim/pack/vendor/start/ clone https://github.com/vim-scripts/AutoComplP
 git -C ~/.vim/pack/vendor/start/ clone https://github.com/vim-airline/vim-airline
 
 # use my vim config
-rm -rf ~/.vimrc
+rm -rf -v ~/.vimrc
 mv .vimrc ~
 
 # finish
 cd .. 
-rm -rf vim-setup/
+rm -rf -v vim-setup/
 echo "Done!"
