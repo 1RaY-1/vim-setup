@@ -29,5 +29,6 @@ Then just type in your terminal this:
 
 ```
 git clone https://github.com/1RaY-1/vim-setup
-sh vim-setup/vim-setup.sh
+cd vim-setup/
+sh vim-setup.sh
 ```
